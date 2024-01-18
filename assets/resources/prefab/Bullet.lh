@@ -1,0 +1,29 @@
+{
+  "_$ver": 1,
+  "_$id": "kohx02g5em",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 10,
+  "height": 30,
+  "_$comp": [
+    {
+      "_$type": "0e604b54-93cc-4f3a-834c-0805d77a5122",
+      "scriptPath": "../src/Bullet.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "v4na26uq",
+      "_$type": "Image",
+      "name": "Image",
+      "width": 10,
+      "height": 30,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://8e91d5a3-96b9-4384-b75a-eddf4b61c766",
+      "color": "#ffffff"
+    }
+  ]
+}

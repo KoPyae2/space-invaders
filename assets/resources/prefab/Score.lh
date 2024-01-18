@@ -1,0 +1,66 @@
+{
+  "_$ver": 1,
+  "_$id": "le8omucy8j",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 189,
+  "height": 86,
+  "_$comp": [
+    {
+      "_$type": "5489284c-05a2-4d72-b7f2-d41f38179cb9",
+      "scriptPath": "../src/Score.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "8efv2m5t",
+      "_$type": "Label",
+      "name": "age",
+      "width": 189,
+      "height": 28,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "text": "Age - 5",
+      "font": "Bahnschrift",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "valign": "top",
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "cakdxw7o",
+      "_$type": "Label",
+      "name": "level",
+      "y": 30,
+      "width": 189,
+      "height": 28,
+      "left": 0,
+      "right": 0,
+      "top": 30,
+      "text": "level - 1",
+      "font": "Bahnschrift",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "valign": "top",
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "8c8gg48r",
+      "_$type": "Label",
+      "name": "score",
+      "y": 58,
+      "width": 189,
+      "height": 28,
+      "left": 0,
+      "right": 0,
+      "top": 58,
+      "text": "Score - 0",
+      "font": "Bahnschrift",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "valign": "top",
+      "padding": "0,0,0,0"
+    }
+  ]
+}

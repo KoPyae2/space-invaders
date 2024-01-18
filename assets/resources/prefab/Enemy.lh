@@ -1,0 +1,29 @@
+{
+  "_$ver": 1,
+  "_$id": "cvjh68i8c3",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 60,
+  "height": 60,
+  "_$comp": [
+    {
+      "_$type": "519eec7b-40cc-40d1-a325-184ab6def1fc",
+      "scriptPath": "../src/Enemy.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "cwzlrqp4",
+      "_$type": "Image",
+      "name": "Image",
+      "width": 60,
+      "height": 60,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://c8422e04-98d1-4142-9437-b9693b0163dd",
+      "color": "#ffffff"
+    }
+  ]
+}
