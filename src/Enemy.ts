@@ -58,13 +58,11 @@ export class Enemy extends Laya.Script {
     this.owner.removeChild(this.image);
     this.owner.addChild(animation)
     animation.interval = 60;
-    animation.wrapMode = Laya.Animation.WRAP_POSITIVE;
     animation.play(null, false);
     animation.once(Laya.Event.COMPLETE, this, () => {
       Laya.SoundManager.playSound('resources/sound/explosion.wav',1)
       GameManager.getInstance().scores ++
       this.owner.destroy()
-      // Add any logic you want to execute after the animation completes
   });
 
   }
